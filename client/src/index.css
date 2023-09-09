@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  height: 40px !important;
+  
+}
+/* To put h1 Blood donation in center by  plain css
+  Same work we can done by tailwind and we give name main(app.js) to (flex h-scree justify-center items-start bg-blue-500) and for project-tittle (text-white)
+*/
+/* .main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
+}
+/*for project - tittle css  by plain css*/
+/* .project-tittle{
+  color: white;
+} */ 
+
+input,textarea,select{
+  min-height: 40px !important;
+  border: 1px solid #6a6a6a !important;
+  border-radius: 2px !important;
+  width: 100% !important;
+}
+input:focus,textarea:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.ant-form-item{
+  margin-bottom: 0 !important;
+}
+
+a:hover{
+  text-decoration: underline !important;
+  color: #6a6a6a !important;
+}
+i{
+  font-size: 20px;
+}
+.ant-form-item-label{
+  padding: 0 !important;
+}
+table{
+  border: 1px solid #9f9f9f !important;
+  border-radius: 2px !important;
+}
